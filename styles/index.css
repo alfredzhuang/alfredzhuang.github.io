@@ -1,6 +1,11 @@
 body {
   background-color: #222831;
   color: #eeeeee;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Splash screen */
