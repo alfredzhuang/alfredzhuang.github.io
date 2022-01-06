@@ -28,3 +28,29 @@
   opacity: 0;
   transition: all 0.75s;
 }
+
+.remove {
+  display: none;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(2rem, 50rem) 1fr;
+}
+
+/* Nav bar */
+
+.navbar {
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+}
+
+/* About page */
+
+/* Projects page */
