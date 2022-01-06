@@ -1,10 +1,13 @@
 const splash = document.querySelector(".splash");
+const navbar = document.querySelector(".navbar");
 const about = document.querySelector("#about");
 const projects = document.querySelector("#projects");
 
 window.addEventListener("DOMContentLoaded", (e) => {
   setTimeout(() => {
     splash.classList.add("no-display");
+    navbar.classList.remove("hidden");
+    about.classList.remove("remove");
   }, 2000);
 });
 
