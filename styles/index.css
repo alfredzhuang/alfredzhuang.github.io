@@ -1,3 +1,8 @@
+body {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
 /* Splash screen */
 
 .splash {
@@ -6,9 +11,6 @@
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: #222831;
-  z-index: 100;
-  color: #eeeeee;
   text-align: center;
   line-height: 90vh;
 }
@@ -33,6 +35,10 @@
   display: none;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /* Grid */
 
 .grid {
@@ -43,6 +49,7 @@
 /* Nav bar */
 
 .navbar {
+  z-index: 1;
   grid-column: 2 / span 1;
   display: flex;
   flex-direction: row;

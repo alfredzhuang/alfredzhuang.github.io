@@ -9,11 +9,11 @@
   </head>
   <body>
     <!-- Splash screen -->
-    <!-- <div class="splash"><h1 class="fade-in">Welcome to my website!</h1></div> -->
+    <div class="splash"><h1 class="fade-in">Welcome to my website!</h1></div>
 
     <!-- Nav bar -->
-    <div class="grid">
-      <nav class="navbar">
+    <div id="navbar" class="grid">
+      <nav class="navbar hidden">
         <a onclick="renderAbout()">AZ</a>
         <div>
           <a onclick="renderAbout()"> About </a>
@@ -23,7 +23,7 @@
     </div>
 
     <!-- About screen -->
-    <div id="about">About div</div>
+    <div id="about" class="remove">About div</div>
 
     <!-- Projects screen -->
     <div id="projects" class="remove">Projects div</div>
