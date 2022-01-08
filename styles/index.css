@@ -77,6 +77,7 @@ a:hover {
 /* Nav bar */
 
 .navbar {
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
   z-index: 1;
   grid-column: 2 / span 1;
