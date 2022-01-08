@@ -1,3 +1,14 @@
+/**
+background: #222831
+cards: #393E46
+headings: #00ADB5
+text: #EEEEEE
+
+FONTS:
+heading: roboto condensed
+regular: Source Sans pro
+*/
+
 body {
   background-color: #222831;
   color: #eeeeee;
@@ -11,13 +22,21 @@ h1 {
 /* Splash screen */
 
 .splash {
+  color: #00adb5;
   position: fixed;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
-  text-align: center;
-  line-height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 40rem;
+  width: 40rem;
 }
 
 @keyframes fadeIn {
