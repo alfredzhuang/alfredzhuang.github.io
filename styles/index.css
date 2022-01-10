@@ -78,6 +78,7 @@ a:hover {
 /* Nav bar */
 
 .navbar {
+  margin-top: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
   z-index: 1;
@@ -96,19 +97,32 @@ a:hover {
 }
 
 /* About page */
-#about {
-  margin-top: 4rem;
-}
+
 .about-container {
   grid-column: 2 / span 1;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-img {
+  height: 22.5rem;
+  width: 17.5rem;
+  border-radius: 5px;
+}
+
+.about-text {
+  padding-left: 1rem;
 }
 
 /* Projects page */
 
 /* Footer */
-
 .footer-container {
   grid-column: 2 / span 1;
+  margin-top: 5rem;
 }
 
 .footer-items {
