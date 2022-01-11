@@ -42,8 +42,8 @@
     </div>
 
     <!-- Nav bar -->
-    <div id="navbar" class="grid">
-      <nav class="navbar hidden">
+    <div id="navbar" class="grid hidden">
+      <nav class="navbar">
         <a onclick="renderAbout()">AZ</a>
         <div class="navbar-items">
           <a onclick="renderAbout()"> About </a>
@@ -53,12 +53,35 @@
     </div>
 
     <!-- About screen -->
-    <div id="about" class="remove">About div</div>
+    <div id="about" class="grid">
+      <div class="about-container remove">
+        <div class="about-me">
+          <img class="about-img" src="images/Alfred.jpg"/>
+          <div class="about-text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="about-background">
+          <h1>Background</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="about-technologies"><h1>Technologies</h1></div>
+      </div>
+    </div>
 
     <!-- Projects screen -->
-    <div id="projects" class="remove">Projects div</div>
-    <!-- Footer -->
+    <div id="projects" class="grid"><div class="projects-container remove">Projects div</div></div>
 
+    <!-- Footer -->
+    <div id="footer" class="grid hidden">
+      <div class="footer-container">
+        <div class="footer-items">
+        <a>GitHub</a>
+        <a>LinkedIn</a>
+        <a>Resume</a>
+      </div>
+    </div>
     <script src="scripts/index.js"></script>
   </body>
 </html>
