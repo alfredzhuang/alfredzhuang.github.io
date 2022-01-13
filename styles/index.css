@@ -119,6 +119,20 @@ a:hover {
 
 /* Projects page */
 
+.projects-container {
+  grid-column: 2 / span 1;
+}
+
+.projects {
+  display: flex;
+}
+
+.project-card {
+  background-color: #393e46;
+  height: 15rem;
+  width: 10rem;
+}
+
 /* Footer */
 .footer-container {
   grid-column: 2 / span 1;
