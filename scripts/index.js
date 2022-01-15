@@ -7,6 +7,7 @@ const footer = document.querySelector("#footer");
 window.addEventListener("DOMContentLoaded", (e) => {
   setTimeout(() => {
     splash.classList.add("no-display");
+    splash.style.top = "-100vh";
     navbar.classList.remove("hidden");
     about.classList.remove("remove");
     footer.classList.remove("hidden");
