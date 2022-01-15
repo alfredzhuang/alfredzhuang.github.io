@@ -139,14 +139,15 @@ a:hover {
 }
 
 .project-img {
-  width: 75%;
+  width: 85%;
+  border-radius: 5px;
 }
 
 .project-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 12.5%;
+  padding: 0px 7.5%;
 }
 
 /* Footer */
