@@ -15,7 +15,8 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   color: #00adb5;
   padding: 0px 0px;
   margin: 0px 0px;
@@ -155,7 +156,14 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 7.5%;
+  padding: 0.5rem 7.5%;
+}
+
+.project-writeup {
+  margin-top: 0.75rem;
+}
+.project-link {
+  margin-top: 1.1rem;
 }
 
 /* Footer */
