@@ -169,7 +169,7 @@ a:hover {
 /* Footer */
 .footer-container {
   grid-column: 2 / span 1;
-  margin-top: 5rem;
+  margin: 2.5rem 2.5rem;
 }
 
 .footer-items {
@@ -177,4 +177,8 @@ a:hover {
   flex-direction: row;
   column-gap: 1.2rem;
   justify-content: center;
+}
+
+.footer-item {
+  color: #eeeeee;
 }
