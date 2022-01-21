@@ -118,7 +118,7 @@ a:hover {
 
 .about-img {
   height: 22.5rem;
-  width: 17.5rem;
+  width: 16rem;
   border-radius: 5px;
 }
 
@@ -181,4 +181,19 @@ a:hover {
 
 .footer-item {
   color: #eeeeee;
+}
+
+/** Mobile **/
+@media (max-width: 670px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-img-container,
+  .about-heading {
+    text-align: center;
+  }
+  .about-text {
+    padding-left: 0;
+  }
 }
