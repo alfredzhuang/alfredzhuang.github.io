@@ -182,3 +182,18 @@ a:hover {
 .footer-item {
   color: #eeeeee;
 }
+
+/** Mobile **/
+@media (max-width: 670px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-img-container,
+  .about-heading {
+    text-align: center;
+  }
+  .about-text {
+    padding-left: 0;
+  }
+}
