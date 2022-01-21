@@ -151,6 +151,17 @@ a:hover {
   border-radius: 10px;
 }
 
+.dragonfist-fitness {
+  width: 25%;
+}
+
+.project-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
 .project-img {
   width: 85%;
   border-radius: 5px;
