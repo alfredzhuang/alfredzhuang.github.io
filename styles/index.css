@@ -32,6 +32,7 @@ p {
 a:hover {
   opacity: 75%;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Splash screen */
