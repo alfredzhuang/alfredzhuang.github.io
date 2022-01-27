@@ -221,6 +221,10 @@ a:hover {
 
 /** Mobile **/
 @media (max-width: 895px) {
+  .logo {
+    height: 30rem;
+    width: 30rem;
+  }
   .about-me {
     display: flex;
     flex-direction: column;
