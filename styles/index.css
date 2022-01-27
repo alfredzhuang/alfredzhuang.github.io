@@ -88,6 +88,10 @@ a:hover {
 
 /* Nav bar */
 
+.selected {
+  opacity: 60%;
+}
+
 .navbar {
   margin-top: 0.2rem;
   font-family: "Roboto Condensed", sans-serif;
