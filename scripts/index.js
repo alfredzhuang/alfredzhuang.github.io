@@ -14,6 +14,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
     about.classList.remove("remove");
     about.classList.add("fade-in");
     footer.classList.remove("hidden");
+    navbarAbout.classList.add("selected");
   }, 2000);
 });
 
