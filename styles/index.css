@@ -206,6 +206,10 @@ a:hover {
   margin-top: 1.1rem;
 }
 
+.project-github {
+  color: #eeeeee;
+}
+
 /* Footer */
 .footer-container {
   grid-column: 2 / span 1;
@@ -220,7 +224,7 @@ a:hover {
 }
 
 .footer-item {
-  color: #eeeeee;
+  color: #00adb5;
 }
 
 /** Mobile **/
