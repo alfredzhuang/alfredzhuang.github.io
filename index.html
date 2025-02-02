@@ -19,23 +19,9 @@ font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alfred Zhuang</title>
     <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/site.webmanifest" />
   </head>
   <body>
@@ -65,25 +51,53 @@ font-awesome.min.css">
           </div>
           <div class="about-text">
             <h1 class="about-heading">About Me</h1>
-            <p class="about-paragraph">Hello, my name is Alfred Zhuang and I am a fourth-year Computer Science major at California State Polytechnic University, Pomona. Currently, I'm interested in full-stack web development with the hopes of one day becoming a Software Engineer.</p>
-            <p class="about-paragraph">I love to design and create software applications, with the aim of bringing joy and convenience to others with every application that I create.</p>
-            <p class="about-paragraph">Besides coding, in my free time, I love to travel, work out, and play videogames. During the pandemic, I've also begun to learn how to cut hair and cook.</p>
+            <p class="about-paragraph">Hello, my name is Alfred Zhuang and I'm a full-time software engineer at Capital One. I graduated in May 2023 with a Bachelors of Science in Computer Science at California State Polytechnic University, Pomona.</p>
           </div>
         </div>
-        <div class="about-background">
+        <!-- <div class="about-background">
           <h1 class="about-heading">Background</h1>
           <p>While I learned a little bit of the basics of Java when I was younger, I didn't really get started on properly learning the coding language until senior year of high school. 
             That year, I was given the opportunity to take AP Computer Science A, where we learned the fundamentals of Java. After enjoying my experiences coding in that course, I decided to major in Computer Science.
             In freshman year of university, I brushed up on my fundamentals of Java. Then, in my sophomore year of university, I began to branch out, trying out mobile development with Flutter and beginning to learn full-stack web development.
             In my junior year of university, I spent time learning more about web development and had the opportunity to join Capital One as a Software Engineer Intern. Now, in my senior year of university, I hope to explore more about the different topics in computer science, such as Artificial Intelligence, Big Data, and more through taking elective courses.
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- Resume screen -->
     <div id="Resume" class="grid">
       <div class="resume-container remove">
+        <h1 class="resume-header">Experience</h1>
+        <div class="expandable-row" onclick="expand('capital-one-ft-icon', 'capital-one-ft-content')">
+          <h6 class="expandable-header">Capital One - Associate Software Engineer (August 2023 - Present)</h6>
+          <i id="capital-one-ft-icon" class="expandable-icon fa fa-angle-down"></i>
+        </div>
+        <div id="capital-one-ft-content" class="remove expandable-content">
+          <div class="expandable-flexbox">
+            <ul class="expandable-text">
+              <li>Building out new feature for teams to create architecture graph diagrams for their applications to ensure proper recovery time objective utilizing Angular and Cytoscape</li>
+              <li>Worked on an infrastructure team to help reduce/debug pipeline failures and review pull requests for company-wide used Jenkins pipeline library utilizing Python, Groovy, OPA Rego policies</li>
+              <li>Delivered a proof of concept to audit auto-failover configuration deployments using React, AWS Lambda, S3, DynamoDB</li>
+              <li>Studied and obtained the AWS Certified Solutions Architect Certificate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="expandable-row" onclick="expand('capital-one-intern-icon', 'capital-one-intern-content')">
+          <h6 class="expandable-header">Capital One - Software Engineer Intern (June 2022 - August 2022)</h6>
+          <i id="capital-one-intern-icon" class="expandable-icon fa fa-angle-down"></i>
+        </div>
+        <div id="capital-one-intern-content" class="remove expandable-content">
+          <div class="expandable-flexbox">
+            <ul class="expandable-text">
+              <li>Built the UI for a tool to manage API/Dataset configurations using React, TypeScript, Jest, and Redux</li>
+              <li>Innersourced a new feature for configuration approval notifications in another team's existing product</li>
+              <li>Participated in Capital One Coders (a program that focuses on building the future technologists in local communities), where I mentored students that were learning HTML and CSS</li>
+              <li>Studied and obtained the AWS Certified Practitioner Certificate</li>
+            </ul>
+          </div>
+        </div>
+
         <h1 class="resume-header">Education</h1>
         <div class="expandable-row" onclick="expand('cal-poly-pomona-icon', 'cal-poly-pomona-content')">
           <h6 class="expandable-header">California State Polytechnic University, Pomona - B.S. in Computer Science (August 2019 - May 2023)</h6>
@@ -91,19 +105,25 @@ font-awesome.min.css">
         </div>
         <div id="cal-poly-pomona-content" class="remove expandable-content">
           <div class="expandable-flexbox">
-            <p class="expandable-text">I'm currently studying at California State Polytechnic University, Pomona to get my Bachelors of Science degree majoring in Computer Science. Throughout my time at this school, I learned a lot about the world of computer science and was able to determine that I wanted to be a Software Engineer in the future. Throughout the many different courses that the school offers for Computer Science majors, I was able to learn the fundamental topics like data structures, algorithms, and more. Not only that, but through electives, I was able to learn more about specific topics such as User Interfaces or Web Search, things that I enjoyed learning more about.</p>
-          </div>
-        </div>
-        
-        <h1 class="resume-header">Experience</h1>
-        <div class="expandable-row" onclick="expand('capital-one-icon', 'capital-one-content')">
-          <h6 class="expandable-header">Capital One - Software Engineer Intern (June 2022 - August 2022)</h6>
-          <i id="capital-one-icon" class="expandable-icon fa fa-angle-down"></i>
-        </div>
-        <div id="capital-one-content" class="remove expandable-content">
-          <div class="expandable-flexbox">
-            <p class="expandable-text">I joined Capital One as a Software Engineer Intern under the 10 week Technology Internship Program in the summer of 2022. I got to work on a team of over 10 people to help build a full-stack application. In specific, I worked on the frontend portion of the application, focusing on using a tech stack that consisted of React, TypeScript, Jest, and Redux to build out the user interface. I also got the opportunity to integrate our new project with another already existing project where I primarily used React, TypeScript, and Jest to build out the UI. Through that experience, I also got to learn more about GraphQL as it was a part of the implementation that I needed to work with to render information in the UI. In addition to working on this application throughout the duration of the summer, I got to participate in Capital One Coders (a program that focuses on building the future technologists in local communities), where I mentored students that were learning HTML and CSS. I also was able to get the AWS Certified Practitioner Certificate, which I studied and tested for during the internship. I was also able to attend 2 in-person events that were organized by Capital One, where I got to meet fellow interns and associates at Capital One. The first event was held in the office that I was based out of (San Francisco, CA) and the other was held in the headquarters (McLean, Virginia).</p>
-            <img class="expandable-image" alt="capital one image" src="images/capital_one.jpg" />
+            <ul class="expandable-text">
+              <li>CS 1300 - Discrete Structures</li>
+              <li>CS 1400 - Introduction to Programming and Problem Solving</li>
+              <li>CS 2400 - Data Structures and Advanced Programming</li>
+              <li>CS 2450 - Programming Graphical User Interfaces</li>
+              <li>CS 2640 - Computer Organization and Assembly Programming</li>
+              <li>CS 3110 - Formal Languages and Automata</li>
+              <li>CS 3310 - Design and Analysis of Algorithms</li>
+              <li>CS 3560 - Object-Oriented Design and Programming</li>
+              <li>CS 3650 - Computer Architecture </li>
+              <li>CS 3800 - Computer Networks</li>
+              <li>CS 4080 - Concepts of Programming Languages</li>
+              <li>CS 4200 - Artificial Intelligence</li>
+              <li>CS 4250 - Web Search and Recommender Systems</li>
+              <li>CS 4310 - Operating Systems</li>
+              <li>CS 4350 - Database Systems</li>
+              <li>CS 4650 - Big Data Analytics and Cloud Computing</li>
+              <li>CS 4800 - Software Engineering</li>
+            </ul>
           </div>
         </div>
       </div>

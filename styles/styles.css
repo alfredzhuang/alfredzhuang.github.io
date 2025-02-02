@@ -1,8 +1,8 @@
 /**
-background: #222831
-cards: #393E46
-headings: #00ADB5
-text: #EEEEEE
+background: #FFFFFF
+cards: #F1F1F1
+headings: #3A76D8
+text: #333333
 
 FONTS:
 heading: roboto condensed
@@ -11,8 +11,8 @@ regular: Source Sans pro
 
 html,
 body {
-  background-color: #222831;
-  color: #eeeeee;
+  background-color: #FFFFFF;
+  color: #333333;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -20,14 +20,14 @@ body {
 
 h1,
 h2 {
-  color: #00adb5;
+  color: #3A76D8;
   padding: 0px 0px;
   margin: 0px 0px;
   font-family: "Roboto Condensed", sans-serif;
 }
 
 h6 {
-  color: #eeeeee;
+  color: #333333;
   padding: 0 0;
   margin: 0 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -44,10 +44,16 @@ a:hover {
   cursor: pointer;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 /* Splash screen */
 
 .splash {
-  color: #00adb5;
+  color: #333333;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -111,7 +117,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: #00adb5;
+  color: #3A76D8;
 }
 
 .navbar-item {
@@ -140,8 +146,7 @@ a:hover {
 }
 
 .about-img {
-  height: 22.5rem;
-  width: 17.5rem;
+  height: 30rem;
   border-radius: 5px;
 }
 
@@ -179,7 +184,7 @@ a:hover {
   height: fit-content;
   padding: 1rem 0;
   margin-top: 1.5rem;
-  background-color: #393e46;
+  background-color: #F1F1F1;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -188,7 +193,7 @@ a:hover {
 
 .expandable-row:hover {
   cursor: pointer;
-  opacity: 90%;
+  opacity: 50%;
 }
 
 .expandable-header {
@@ -202,20 +207,18 @@ a:hover {
 }
 
 .expandable-content {
-  background-color: #393e46;
+  background-color: #F1F1F1;
   width: 100%;
 }
 
 .expandable-flexbox {
   display: flex;
-  column-gap: 1.5rem;
-  padding: 1.5rem;
-  align-items: center;
-  justify-content: center;
+  padding: 16px;
 }
 
 .expandable-text {
   text-align: left;
+  padding-left: 16px;
 }
 
 .expandable-image {
@@ -244,7 +247,8 @@ a:hover {
 
 .project-card {
   padding: 10px;
-  background-color: #393e46;
+  /* border: 1px #005A9C solid; */
+  background-color: #F1F1F1;
   width: 100%;
   border-radius: 10px;
 }
@@ -277,7 +281,11 @@ a:hover {
 }
 .project-link {
   margin-top: 1.1rem;
-  color: #eeeeee;
+  color: #3A76D8;
+  width: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer */
@@ -294,7 +302,7 @@ a:hover {
 }
 
 .footer-item {
-  color: #00adb5;
+  color: #3A76D8;
 }
 
 /** Mobile **/
